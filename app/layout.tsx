@@ -1,4 +1,5 @@
 // ── 修改后的 layout.tsx：接入插件注入 ──
+import Link from "next/link";
 import type { Metadata } from "next";
 import { siteConfig } from "@/lib/config";
 import { loadPlugins } from "@/lib/plugins";
@@ -50,9 +51,9 @@ export default function RootLayout({
           <div className="max-w-3xl mx-auto px-4 h-14 flex items-center justify-between">
             <span className="font-bold text-lg">{siteConfig.name}</span>
             <div className="flex items-center gap-4 text-sm">
-              <a href="/" className="hover:text-blue-600 transition-colors">首页</a>
-              <a href="/about" className="hover:text-blue-600 transition-colors">关于</a>
-              <a href="/admin" className="hover:text-blue-600 transition-colors">管理</a>
+              <Link href="/" className="hover:text-blue-600 transition-colors">首页</Link>
+              <Link href="/about" className="hover:text-blue-600 transition-colors">关于</Link>
+              <Link href="/admin" className="hover:text-blue-600 transition-colors">管理</Link>
               <ThemeToggle />
             </div>
           </div>
