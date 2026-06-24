@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>叙溯</title>
+    <link>https://msoceo.github.io/blog</link>
+    <description>一边讲述，一边溯源。在书写中厘清思路，在回顾中看见轨迹。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 23 Jun 2026 03:32:37 GMT</lastBuildDate>
+    <atom:link href="https://msoceo.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>「叙溯」诞生记：在书写中溯源</title>
+      <link>https://msoceo.github.io/blog/text</link>
+      <guid isPermaLink="true">https://msoceo.github.io/blog/text</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <description>一个关于名字、主题与坚持的故事——从零搭建一个为书写而生的博客引擎。</description>
+      <content:encoded><![CDATA[
+## 为什么要自己造轮子
+
+2026 年 6 月，我把一个叫「叙溯」的博客引擎部署到了 GitHub Pages 上。
+
+听起来像是一个深夜冲动。确实如此。但冲动背后有更久远的伏笔——我写博客写过很多轮了。WordPress 太重，Hugo 太模板化，Hexo 用着用着就搁了。每一个都不够趁手：不是功能太多让人分心，就是改个样式像在做手术。
+
+我想要的东西很简单：**一个为书写而生的极简引擎**。Markdown 写文章，静态生成，一键部署，不改一行配置就能拥有高完成度的排版。
+
+市面上没有。那就自己来。
+
+---
+
+## 名字的故事
+
+「叙溯」这个名字想了很久。
+
+**叙**，是讲述。写博客说到底就是把脑子里纠缠的想法，逐字逐句摊开，熨平，交给读者。
+
+**溯**，是回溯。每一篇文章都是时间的切片——写下的那一刻你是什么状态，想了什么，焦虑了什么，兴奋了什么。回头看，就是一条清晰可见的成长轨迹。
+
+合在一起，「叙溯」的意思是：**一边讲述，一边溯源。在书写中厘清思路，在回顾中看见轨迹。**
+
+这不是一个功能列表里的项目名。这是一个写作信念的宣言。
+
+---
+
+## 两套主题，两种心]]></content:encoded>
+    </item>
+    <item>
+      <title>关于</title>
+      <link>https://msoceo.github.io/blog/about</link>
+      <guid isPermaLink="true">https://msoceo.github.io/blog/about</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <description></description>
+      <content:encoded><![CDATA[
+## 叙溯是什么
+
+**叙溯**——一边**叙**说，一边追**溯**。
+
+一个为书写而生的开源博客引擎。完整的前端渲染管道 + 双主题系统，让你专注于内容本身。
+
+## 核心特性
+
+- **双模架构**：静态模式一键部署 GitHub Pages / Vercel，动态模式接入数据库在线编辑
+- **双主题引擎**：朱墨（书卷气）与溯光（社论风）内置于产物，构建时选定，运行时即刻切换
+- **Markdown 原生**：`content/` 目录写 `.md` 文件，gray-matter + remark 管线渲染
+- **暗色模式**：跟随系统或手动切换，两套主题独立色调配，夜间不刺眼
+- **零运行时依赖**：纯 Next.js 静态导出，无数据库也可运行
+
+## 技术栈
+
+Next.js 15 · TypeScript · Tailwind CSS 4 · remark
+
+## 仓库
+
+[github.com/msoceo/xusu](https://github.com/msoceo/xusu)
+
+---
+
+*在书写中厘清思路，在回顾中看见轨迹。*
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
