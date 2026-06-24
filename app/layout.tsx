@@ -51,9 +51,15 @@ export default function RootLayout({
           <div className="max-w-3xl mx-auto px-4 h-14 flex items-center justify-between">
             <span className="font-bold text-lg">{siteConfig.name}</span>
             <div className="flex items-center gap-4 text-sm">
-              <Link href="/" className="hover:text-blue-600 transition-colors">首页</Link>
+              <Link href="/" className="hover:text-blue-600 transition-colors">文章</Link>
+              <Link href="/murmur" className="hover:text-blue-600 transition-colors">碎念</Link>
+              <Link href="/garden" className="hover:text-blue-600 transition-colors">花园</Link>
+              <Link href="/archive" className="hover:text-blue-600 transition-colors">归档</Link>
+              <Link href="/tags" className="hover:text-blue-600 transition-colors">标签</Link>
+              <Link href="/friends" className="hover:text-blue-600 transition-colors">友链</Link>
               <Link href="/about" className="hover:text-blue-600 transition-colors">关于</Link>
               <Link href="/admin" className="hover:text-blue-600 transition-colors">管理</Link>
+              <a href="/rss.xml" target="_blank" rel="noopener" className="hover:text-orange-500 transition-colors" title="RSS 订阅">📡</a>
               <ThemeToggle />
             </div>
           </div>
