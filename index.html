@@ -1,1 +1,1189 @@
-<!DOCTYPE html><!--oEiy6TvwGQ0BVlrdBvI_c--><html lang="zh-CN" data-theme="zen-editorial"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/blog/_next/static/css/6dd76fcf982edc69.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/blog/_next/static/chunks/webpack-4ec8ffda9f7fdf7d.js"/><script src="/blog/_next/static/chunks/4bd1b696-c023c6e3521b1417.js" async=""></script><script src="/blog/_next/static/chunks/255-d24efeb2be6ea7a7.js" async=""></script><script src="/blog/_next/static/chunks/main-app-a6db121c00d7172c.js" async=""></script><script src="/blog/_next/static/chunks/619-ba102abea3e3d0e4.js" async=""></script><script src="/blog/_next/static/chunks/app/page-853c0a41825656f0.js" async=""></script><title>Xusu</title><meta name="description" content="叙溯 —— 一边讲述，一边溯源。基于 Next.js 的双模博客系统。"/><meta property="og:title" content="Xusu"/><meta property="og:description" content="叙溯 —— 一边讲述，一边溯源。基于 Next.js 的双模博客系统。"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Xusu"/><meta name="twitter:description" content="叙溯 —— 一边讲述，一边溯源。基于 Next.js 的双模博客系统。"/><script>(function(){var t=localStorage.getItem('theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme:dark)').matches)){document.documentElement.classList.add('dark')}})()</script><script>(function(){var p=new URLSearchParams(location.search);var t=p.get('theme');if(t==='bookish'||t==='zen-editorial'){document.documentElement.setAttribute('data-theme',t);try{localStorage.setItem('xusu-theme',t)}catch(e){}}else{var s;try{s=localStorage.getItem('xusu-theme')}catch(e){}if(s==='bookish'||s==='zen-editorial'){document.documentElement.setAttribute('data-theme',s)}}})()</script><script src="/blog/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script></head><body class="min-h-screen flex flex-col" style="background-color:var(--color-base)"><div hidden=""><!--$--><!--/$--></div><header class="sticky top-0 z-50 border-b theme-zen:backdrop-blur-2xl theme-zen:border-dashed theme-zen:h-16 theme-bookish:backdrop-blur-lg" style="background-color:oklch(from var(--color-base) l c h / 0.72);border-color:var(--color-border)"><nav class="mx-auto px-5 flex items-center justify-between theme-zen:max-w-3xl theme-zen:h-16 theme-bookish:max-w-4xl theme-bookish:h-14" aria-label="主导航"><a class="flex items-baseline gap-2 no-underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] rounded-sm" style="font-family:&quot;Noto Serif SC&quot;, Georgia, serif" href="/blog"><span class="font-bold tracking-tight text-[var(--color-text)] theme-zen:text-xl theme-bookish:text-lg" style="font-family:ui-monospace, SFMono-Regular, &#x27;Cascadia Code&#x27;, monospace">Xusu</span><span class="text-[10px] tracking-[0.2em] opacity-25 mt-0.5 hidden sm:inline" style="font-family:&quot;Noto Serif SC&quot;, Georgia, serif">叙溯</span></a><div class="flex items-center gap-0.5 overflow-x-auto"><a class="relative px-3 py-2 text-sm tracking-wide text-[var(--color-text-muted)] hover:text-[var(--color-text)] transition-colors duration-200 ease-out focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] rounded-md" style="min-width:44px;min-height:44px;display:inline-flex;align-items:center" href="/blog">文章</a><a class="relative px-3 py-2 text-sm tracking-wide text-[var(--color-text-muted)] hover:text-[var(--color-text)] transition-colors duration-200 ease-out focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] rounded-md" style="min-width:44px;min-height:44px;display:inline-flex;align-items:center" href="/blog/archive">归档</a><a class="relative px-3 py-2 text-sm tracking-wide text-[var(--color-text-muted)] hover:text-[var(--color-text)] transition-colors duration-200 ease-out focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] rounded-md" style="min-width:44px;min-height:44px;display:inline-flex;align-items:center" href="/blog/tags">标签</a><a class="relative px-3 py-2 text-sm tracking-wide text-[var(--color-text-muted)] hover:text-[var(--color-text)] transition-colors duration-200 ease-out focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] rounded-md" style="min-width:44px;min-height:44px;display:inline-flex;align-items:center" href="/blog/stats">统计</a><a class="relative px-3 py-2 text-sm tracking-wide text-[var(--color-text-muted)] hover:text-[var(--color-text)] transition-colors duration-200 ease-out focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] rounded-md" style="min-width:44px;min-height:44px;display:inline-flex;align-items:center" href="/blog/about">关于</a></div></nav></header><main class="flex-1 mx-auto px-5 w-full theme-zen:max-w-3xl theme-zen:py-12 theme-bookish:max-w-4xl theme-bookish:py-10"><div class="theme-home theme-zen"><div><section class="mb-20 pt-2 pb-6" style="border-bottom:1px dashed var(--color-line)"><h1 class="text-3xl sm:text-4xl font-bold tracking-wider text-[var(--color-text)] mb-3" style="font-family:&quot;Noto Serif SC&quot;, Georgia, serif">叙溯</h1><p class="text-sm leading-relaxed opacity-45 max-w-xl">叙溯 —— 一边讲述，一边溯源。基于 Next.js 的双模博客系统。</p></section><section aria-label="文章列表"><div class="relative"><article class="relative pl-10 pb-12 group" style="animation-delay:0ms"><div class="absolute left-[9px] top-2 bottom-0 w-px" style="background:var(--color-line)"></div><div class="absolute left-[3px] top-2 w-[13px] h-[13px] rounded-full border-2 transition-colors duration-300 ease-out" style="border-color:var(--color-line);background-color:var(--color-base)"><div class="absolute inset-0.5 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-out" style="background-color:var(--color-accent)"></div></div><a class="block no-underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] rounded-md" href="/blog/text"><div class="flex flex-wrap items-center gap-3 mb-1.5"><time class="text-xs opacity-35 font-mono tabular-nums tracking-wide" dateTime="Tue Jun 23 2026 08:00:00 GMT+0800 (China Standard Time)">2026·06·23</time><span class="text-[10px] font-mono tracking-[0.2em] uppercase px-2 py-0.5 rounded" style="color:var(--color-accent);background:rgba(142, 85, 41, 0.06)">项目</span></div><h2 class="text-base sm:text-lg font-semibold leading-snug text-[var(--color-text)] group-hover:text-[var(--color-accent)] transition-colors duration-200 ease-out">「叙溯」诞生记：在书写中溯源</h2><p class="mt-1.5 text-sm leading-relaxed opacity-35 line-clamp-2 transition-opacity duration-200 group-hover:opacity-50">一个关于名字、主题与坚持的故事——从零搭建一个为书写而生的博客引擎。</p><div class="flex flex-wrap gap-2 mt-2"><span class="text-[11px] italic opacity-25 group-hover:opacity-40 transition-opacity duration-200" style="color:var(--color-text-muted)">#<!-- -->叙溯</span><span class="text-[11px] italic opacity-25 group-hover:opacity-40 transition-opacity duration-200" style="color:var(--color-text-muted)">#<!-- -->博客引擎</span><span class="text-[11px] italic opacity-25 group-hover:opacity-40 transition-opacity duration-200" style="color:var(--color-text-muted)">#<!-- -->开源</span><span class="text-[11px] italic opacity-25 group-hover:opacity-40 transition-opacity duration-200" style="color:var(--color-text-muted)">#<!-- -->设计</span></div></a></article><article class="relative pl-10 pb-12 group" style="animation-delay:80ms"><div class="absolute left-[9px] top-2 bottom-0 w-px" style="background:var(--color-line)"></div><div class="absolute left-[3px] top-2 w-[13px] h-[13px] rounded-full border-2 transition-colors duration-300 ease-out" style="border-color:var(--color-line);background-color:var(--color-base)"><div class="absolute inset-0.5 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-out" style="background-color:var(--color-accent)"></div></div><a class="block no-underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] rounded-md" href="/blog/about"><div class="flex flex-wrap items-center gap-3 mb-1.5"><time class="text-xs opacity-35 font-mono tabular-nums tracking-wide" dateTime="Mon Jun 22 2026 08:00:00 GMT+0800 (China Standard Time)">2026·06·22</time></div><h2 class="text-base sm:text-lg font-semibold leading-snug text-[var(--color-text)] group-hover:text-[var(--color-accent)] transition-colors duration-200 ease-out">关于</h2></a></article></div></section></div></div><div class="theme-home theme-bookish"><div><section class="mb-16 pt-4"><div class="flex items-baseline gap-3 mb-3"><h1 class="text-2xl sm:text-3xl font-bold tracking-wider text-[var(--color-text)]" style="font-family:&quot;Noto Serif SC&quot;, serif">叙溯</h1><span class="text-xs tracking-[0.2em] uppercase opacity-25 font-mono mt-1">Xusu</span></div><p class="text-sm leading-relaxed opacity-50 max-w-lg">叙溯 —— 一边讲述，一边溯源。基于 Next.js 的双模博客系统。</p><div class="mt-6 h-[2px] w-8 rounded-full" style="background:var(--color-accent)"></div></section><section aria-label="文章列表"><div class="flex flex-col gap-px"><article class="group relative -mx-3 px-3 py-4 rounded-lg transition-all duration-200 ease-out hover:bg-[oklch(from_var(--color-accent)_l_c_h_/_0.03)]" style="animation-delay:0ms"><a class="block no-underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] rounded-md" href="/blog/text"><div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1"><h2 class="text-base sm:text-lg font-semibold leading-snug text-[var(--color-text)] group-hover:text-[var(--color-accent)] transition-colors duration-200 ease-out">「叙溯」诞生记：在书写中溯源</h2><time class="text-xs whitespace-nowrap opacity-35 font-mono tabular-nums" dateTime="Tue Jun 23 2026 08:00:00 GMT+0800 (China Standard Time)">2026·06·23</time></div><p class="mt-1 text-sm leading-relaxed opacity-40 line-clamp-2 transition-opacity duration-200 group-hover:opacity-55">一个关于名字、主题与坚持的故事——从零搭建一个为书写而生的博客引擎。</p><div class="flex flex-wrap gap-1.5 mt-2"><span class="text-[11px] px-2 py-0.5 rounded font-mono opacity-30 group-hover:opacity-45 transition-opacity duration-200" style="background:oklch(from var(--color-accent) l c h / 0.06);color:var(--color-accent)">叙溯</span><span class="text-[11px] px-2 py-0.5 rounded font-mono opacity-30 group-hover:opacity-45 transition-opacity duration-200" style="background:oklch(from var(--color-accent) l c h / 0.06);color:var(--color-accent)">博客引擎</span><span class="text-[11px] px-2 py-0.5 rounded font-mono opacity-30 group-hover:opacity-45 transition-opacity duration-200" style="background:oklch(from var(--color-accent) l c h / 0.06);color:var(--color-accent)">开源</span><span class="text-[11px] px-2 py-0.5 rounded font-mono opacity-30 group-hover:opacity-45 transition-opacity duration-200" style="background:oklch(from var(--color-accent) l c h / 0.06);color:var(--color-accent)">设计</span></div></a></article><article class="group relative -mx-3 px-3 py-4 rounded-lg transition-all duration-200 ease-out hover:bg-[oklch(from_var(--color-accent)_l_c_h_/_0.03)]" style="animation-delay:60ms"><a class="block no-underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] rounded-md" href="/blog/about"><div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1"><h2 class="text-base sm:text-lg font-semibold leading-snug text-[var(--color-text)] group-hover:text-[var(--color-accent)] transition-colors duration-200 ease-out">关于</h2><time class="text-xs whitespace-nowrap opacity-35 font-mono tabular-nums" dateTime="Mon Jun 22 2026 08:00:00 GMT+0800 (China Standard Time)">2026·06·22</time></div></a></article></div></section></div></div><!--$--><!--/$--></main><script><script src="https://giscus.app/client.js" data-repo="msoceo/blog" data-repo-id="R_kgDO3BmErg" data-category="General" data-category-id="DIC_kwDOTB245s4C_sNs" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="zh-CN" data-loading="lazy" crossorigin="anonymous" async><\/script></script><footer class="border-t py-10 text-center theme-zen:border-dashed" style="border-color:var(--color-border)"><p class="tracking-wide opacity-40 theme-zen:block theme-bookish:hidden text-sm italic" style="font-family:&quot;Noto Serif SC&quot;, Georgia, serif">“一边讲述，一边溯源”</p><p class="tracking-wide text-xs tracking-widest opacity-30 theme-zen:hidden theme-bookish:block" style="font-family:&quot;Noto Serif SC&quot;, Georgia, serif">叙 说 与 溯 源</p><p class="text-[11px] opacity-25 mt-3 tracking-wider">© <!-- -->2026<!-- --> <!-- -->Xusu</p></footer><script src="/blog/_next/static/chunks/webpack-4ec8ffda9f7fdf7d.js" id="_R_" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[2619,[\"619\",\"static/chunks/619-ba102abea3e3d0e4.js\",\"974\",\"static/chunks/app/page-853c0a41825656f0.js\"],\"\"]\n9:I[7150,[],\"\"]\n:HL[\"/blog/_next/static/css/6dd76fcf982edc69.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"b\":\"oEiy6TvwGQ0BVlrdBvI-c\",\"p\":\"/blog\",\"c\":[\"\",\"\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/blog/_next/static/css/6dd76fcf982edc69.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"zh-CN\",\"data-theme\":\"zen-editorial\",\"suppressHydrationWarning\":true,\"children\":[[\"$\",\"head\",null,{\"children\":[[\"$\",\"script\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"(function(){var t=localStorage.getItem('theme');if(t==='dark'||(!t\u0026\u0026window.matchMedia('(prefers-color-scheme:dark)').matches)){document.documentElement.classList.add('dark')}})()\"}}],[\"$\",\"script\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"(function(){var p=new URLSearchParams(location.search);var t=p.get('theme');if(t==='bookish'||t==='zen-editorial'){document.documentElement.setAttribute('data-theme',t);try{localStorage.setItem('xusu-theme',t)}catch(e){}}else{var s;try{s=localStorage.getItem('xusu-theme')}catch(e){}if(s==='bookish'||s==='zen-editorial'){document.documentElement.setAttribute('data-theme',s)}}})()\"}}],\"\"]}],[\"$\",\"body\",null,{\"className\":\"min-h-screen flex flex-col\",\"style\":{\"backgroundColor\":\"var(--color-base)\"},\"children\":[\"\",[\"$\",\"header\",null,{\"className\":\"sticky top-0 z-50 border-b theme-zen:backdrop-blur-2xl theme-zen:border-dashed theme-zen:h-16 theme-bookish:backdrop-blur-lg\",\"style\":{\"backgroundColor\":\"oklch(from var(--color-base) l c h / 0.72)\",\"borderColor\":\"var(--color-border)\"},\"children\":[\"$\",\"nav\",null,{\"className\":\"mx-auto px-5 flex items-center justify-between theme-zen:max-w-3xl theme-zen:h-16 theme-bookish:max-w-4xl theme-bookish:h-14\",\"aria-label\":\"主导航\",\"children\":[[\"$\",\"$L2\",null,{\"href\":\"/\",\"className\":\"flex items-baseline gap-2 no-underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] rounded-sm\",\"style\":{\"fontFamily\":\"\\\"Noto Serif SC\\\", Georgia, serif\"},\"children\":[[\"$\",\"span\",null,{\"className\":\"font-bold tracking-tight text-[var(--color-text)] theme-zen:text-xl theme-bookish:text-lg\",\"style\":{\"fontFamily\":\"ui-monospace, SFMono-Regular, 'Cascadia Code', monospace\"},\"children\":\"Xusu\"}],[\"$\",\"span\",null,{\"className\":\"text-[10px] tracking-[0.2em] opacity-25 mt-0.5 hidden sm:inline\",\"style\":{\"fontFamily\":\"\\\"Noto Serif SC\\\", Georgia, serif\"},\"children\":\"叙溯\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex items-center gap-0.5 overflow-x-auto\",\"children\":[[\"$\",\"$L2\",null,{\"href\":\"/\",\"className\":\"relative px-3 py-2 text-sm tracking-wide text-[var(--color-text-muted)] hover:text-[var(--color-text)] transition-colors duration-200 ease-out focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] rounded-md\",\"style\":{\"minWidth\":\"44px\",\"minHeight\":\"44px\",\"display\":\"inline-flex\",\"alignItems\":\"center\"},\"children\":\"文章\"}],[\"$\",\"$L2\",null,{\"href\":\"/archive\",\"className\":\"relative px-3 py-2 text-sm tracking-wide text-[var(--color-text-muted)] hover:text-[var(--color-text)] transition-colors duration-200 ease-out focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] rounded-md\",\"style\":{\"minWidth\":\"44px\",\"minHeight\":\"44px\",\"display\":\"inline-flex\",\"alignItems\":\"center\"},\"children\":\"归档\"}],[\"$\",\"$L2\",null,{\"href\":\"/tags\",\"className\":\"relative px-3 py-2 text-sm tracking-wide text-[var(--color-text-muted)] hover:text-[var(--color-text)] transition-colors duration-200 ease-out focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] rounded-md\",\"style\":{\"minWidth\":\"44px\",\"minHeight\":\"44px\",\"display\":\"inline-flex\",\"alignItems\":\"center\"},\"children\":\"标签\"}],[\"$\",\"$L2\",null,{\"href\":\"/stats\",\"className\":\"relative px-3 py-2 text-sm tracking-wide text-[var(--color-text-muted)] hover:text-[var(--color-text)] transition-colors duration-200 ease-out focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] rounded-md\",\"style\":{\"minWidth\":\"44px\",\"minHeight\":\"44px\",\"display\":\"inline-flex\",\"alignItems\":\"center\"},\"children\":\"统计\"}],\"$L3\"]}]]}]}],\"$L4\",\"$L5\",\"$L6\"]}]]}]]}],{\"children\":[\"__PAGE__\",\"$L7\",{},null,false]},null,false],\"$L8\",false]],\"m\":\"$undefined\",\"G\":[\"$9\",[]],\"s\":false,\"S\":true}\n"])</script><script>self.__next_f.push([1,"a:I[9766,[],\"\"]\nb:I[8924,[],\"\"]\n11:I[4431,[],\"ViewportBoundary\"]\n13:I[4431,[],\"MetadataBoundary\"]\n14:\"$Sreact.suspense\"\n3:[\"$\",\"$L2\",null,{\"href\":\"/about\",\"className\":\"relative px-3 py-2 text-sm tracking-wide text-[var(--color-text-muted)] hover:text-[var(--color-text)] transition-colors duration-200 ease-out focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] rounded-md\",\"style\":{\"minWidth\":\"44px\",\"minHeight\":\"44px\",\"display\":\"inline-flex\",\"alignItems\":\"center\"},\"children\":\"关于\"}]\n"])</script><script>self.__next_f.push([1,"4:[\"$\",\"main\",null,{\"className\":\"flex-1 mx-auto px-5 w-full theme-zen:max-w-3xl theme-zen:py-12 theme-bookish:max-w-4xl theme-bookish:py-10\",\"children\":[\"$\",\"$La\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$Lb\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]\n"])</script><script>self.__next_f.push([1,"5:[\"$\",\"script\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"\u003cscript src=\\\"https://giscus.app/client.js\\\" data-repo=\\\"msoceo/blog\\\" data-repo-id=\\\"R_kgDO3BmErg\\\" data-category=\\\"General\\\" data-category-id=\\\"DIC_kwDOTB245s4C_sNs\\\" data-mapping=\\\"pathname\\\" data-strict=\\\"0\\\" data-reactions-enabled=\\\"1\\\" data-emit-metadata=\\\"0\\\" data-input-position=\\\"top\\\" data-theme=\\\"preferred_color_scheme\\\" data-lang=\\\"zh-CN\\\" data-loading=\\\"lazy\\\" crossorigin=\\\"anonymous\\\" async\u003e\u003c\\\\/script\u003e\"}}]\n6:[\"$\",\"footer\",null,{\"className\":\"border-t py-10 text-center theme-zen:border-dashed\",\"style\":{\"borderColor\":\"var(--color-border)\"},\"children\":[[\"$\",\"p\",null,{\"className\":\"tracking-wide opacity-40 theme-zen:block theme-bookish:hidden text-sm italic\",\"style\":{\"fontFamily\":\"\\\"Noto Serif SC\\\", Georgia, serif\"},\"children\":\"“一边讲述，一边溯源”\"}],[\"$\",\"p\",null,{\"className\":\"tracking-wide text-xs tracking-widest opacity-30 theme-zen:hidden theme-bookish:block\",\"style\":{\"fontFamily\":\"\\\"Noto Serif SC\\\", Georgia, serif\"},\"children\":\"叙 说 与 溯 源\"}],[\"$\",\"p\",null,{\"className\":\"text-[11px] opacity-25 mt-3 tracking-wider\",\"children\":[\"© \",2026,\" \",\"Xusu\"]}]]}]\n"])</script><script>self.__next_f.push([1,"7:[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"div\",null,{\"className\":\"theme-home theme-zen\",\"suppressHydrationWarning\":true,\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"section\",null,{\"className\":\"mb-20 pt-2 pb-6\",\"style\":{\"borderBottom\":\"1px dashed var(--color-line)\"},\"children\":[[\"$\",\"h1\",null,{\"className\":\"text-3xl sm:text-4xl font-bold tracking-wider text-[var(--color-text)] mb-3\",\"style\":{\"fontFamily\":\"\\\"Noto Serif SC\\\", Georgia, serif\"},\"children\":\"叙溯\"}],[\"$\",\"p\",null,{\"className\":\"text-sm leading-relaxed opacity-45 max-w-xl\",\"children\":\"叙溯 —— 一边讲述，一边溯源。基于 Next.js 的双模博客系统。\"}]]}],[\"$\",\"section\",null,{\"aria-label\":\"文章列表\",\"children\":[\"$\",\"div\",null,{\"className\":\"relative\",\"children\":[[\"$\",\"article\",\"text\",{\"className\":\"relative pl-10 pb-12 group\",\"style\":{\"animationDelay\":\"0ms\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"absolute left-[9px] top-2 bottom-0 w-px\",\"style\":{\"background\":\"var(--color-line)\"}}],[\"$\",\"div\",null,{\"className\":\"absolute left-[3px] top-2 w-[13px] h-[13px] rounded-full border-2 transition-colors duration-300 ease-out\",\"style\":{\"borderColor\":\"var(--color-line)\",\"backgroundColor\":\"var(--color-base)\"},\"children\":[\"$\",\"div\",null,{\"className\":\"absolute inset-0.5 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-out\",\"style\":{\"backgroundColor\":\"var(--color-accent)\"}}]}],[\"$\",\"$L2\",null,{\"href\":\"/text\",\"className\":\"block no-underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] rounded-md\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-wrap items-center gap-3 mb-1.5\",\"children\":[[\"$\",\"time\",null,{\"className\":\"text-xs opacity-35 font-mono tabular-nums tracking-wide\",\"dateTime\":\"$D2026-06-23T00:00:00.000Z\",\"children\":\"2026·06·23\"}],[\"$\",\"span\",null,{\"className\":\"text-[10px] font-mono tracking-[0.2em] uppercase px-2 py-0.5 rounded\",\"style\":{\"color\":\"var(--color-accent)\",\"background\":\"rgba(142, 85, 41, 0.06)\"},\"children\":\"项目\"}]]}],[\"$\",\"h2\",null,{\"className\":\"text-base sm:text-lg font-semibold leading-snug text-[var(--color-text)] group-hover:text-[var(--color-accent)] transition-colors duration-200 ease-out\",\"children\":\"「叙溯」诞生记：在书写中溯源\"}],[\"$\",\"p\",null,{\"className\":\"mt-1.5 text-sm leading-relaxed opacity-35 line-clamp-2 transition-opacity duration-200 group-hover:opacity-50\",\"children\":\"一个关于名字、主题与坚持的故事——从零搭建一个为书写而生的博客引擎。\"}],[\"$\",\"div\",null,{\"className\":\"flex flex-wrap gap-2 mt-2\",\"children\":[[\"$\",\"span\",\"叙溯\",{\"className\":\"text-[11px] italic opacity-25 group-hover:opacity-40 transition-opacity duration-200\",\"style\":{\"color\":\"var(--color-text-muted)\"},\"children\":[\"#\",\"叙溯\"]}],[\"$\",\"span\",\"博客引擎\",{\"className\":\"text-[11px] italic opacity-25 group-hover:opacity-40 transition-opacity duration-200\",\"style\":{\"color\":\"var(--color-text-muted)\"},\"children\":[\"#\",\"博客引擎\"]}],[\"$\",\"span\",\"开源\",{\"className\":\"text-[11px] italic opacity-25 group-hover:opacity-40 transition-opacity duration-200\",\"style\":{\"color\":\"var(--color-text-muted)\"},\"children\":[\"#\",\"开源\"]}],[\"$\",\"span\",\"设计\",{\"className\":\"text-[11px] italic opacity-25 group-hover:opacity-40 transition-opacity duration-200\",\"style\":{\"color\":\"var(--color-text-muted)\"},\"children\":[\"#\",\"设计\"]}]]}]]}]]}],[\"$\",\"article\",\"about\",{\"className\":\"relative pl-10 pb-12 group\",\"style\":{\"animationDelay\":\"80ms\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"absolute left-[9px] top-2 bottom-0 w-px\",\"style\":{\"background\":\"var(--color-line)\"}}],[\"$\",\"div\",null,{\"className\":\"absolute left-[3px] top-2 w-[13px] h-[13px] rounded-full border-2 transition-colors duration-300 ease-out\",\"style\":{\"borderColor\":\"var(--color-line)\",\"backgroundColor\":\"var(--color-base)\"},\"children\":[\"$\",\"div\",null,{\"className\":\"absolute inset-0.5 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-out\",\"style\":{\"backgroundColor\":\"var(--color-accent)\"}}]}],[\"$\",\"$L2\",null,{\"href\":\"/about\",\"className\":\"block no-underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] rounded-md\",\"children\":[\"$Lc\",\"$Ld\",\"$undefined\",\"$undefined\"]}]]}]]}]}],\"$Le\"]}]}],\"$Lf\"],null,\"$L10\"]}]\n"])</script><script>self.__next_f.push([1,"8:[\"$\",\"$1\",\"h\",{\"children\":[null,[[\"$\",\"$L11\",null,{\"children\":\"$L12\"}],null],[\"$\",\"$L13\",null,{\"children\":[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$14\",null,{\"fallback\":null,\"children\":\"$L15\"}]}]}]]}]\n"])</script><script>self.__next_f.push([1,"17:I[4431,[],\"OutletBoundary\"]\n19:I[5278,[],\"AsyncMetadataOutlet\"]\nc:[\"$\",\"div\",null,{\"className\":\"flex flex-wrap items-center gap-3 mb-1.5\",\"children\":[[\"$\",\"time\",null,{\"className\":\"text-xs opacity-35 font-mono tabular-nums tracking-wide\",\"dateTime\":\"$D2026-06-22T00:00:00.000Z\",\"children\":\"2026·06·22\"}],\"$undefined\"]}]\nd:[\"$\",\"h2\",null,{\"className\":\"text-base sm:text-lg font-semibold leading-snug text-[var(--color-text)] group-hover:text-[var(--color-accent)] transition-colors duration-200 ease-out\",\"children\":\"关于\"}]\ne:null\n"])</script><script>self.__next_f.push([1,"f:[\"$\",\"div\",null,{\"className\":\"theme-home theme-bookish\",\"suppressHydrationWarning\":true,\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"section\",null,{\"className\":\"mb-16 pt-4\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-baseline gap-3 mb-3\",\"children\":[[\"$\",\"h1\",null,{\"className\":\"text-2xl sm:text-3xl font-bold tracking-wider text-[var(--color-text)]\",\"style\":{\"fontFamily\":\"\\\"Noto Serif SC\\\", serif\"},\"children\":\"叙溯\"}],[\"$\",\"span\",null,{\"className\":\"text-xs tracking-[0.2em] uppercase opacity-25 font-mono mt-1\",\"children\":\"Xusu\"}]]}],[\"$\",\"p\",null,{\"className\":\"text-sm leading-relaxed opacity-50 max-w-lg\",\"children\":\"叙溯 —— 一边讲述，一边溯源。基于 Next.js 的双模博客系统。\"}],[\"$\",\"div\",null,{\"className\":\"mt-6 h-[2px] w-8 rounded-full\",\"style\":{\"background\":\"var(--color-accent)\"}}]]}],[\"$\",\"section\",null,{\"aria-label\":\"文章列表\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-px\",\"children\":[[\"$\",\"article\",\"text\",{\"className\":\"group relative -mx-3 px-3 py-4 rounded-lg transition-all duration-200 ease-out hover:bg-[oklch(from_var(--color-accent)_l_c_h_/_0.03)]\",\"style\":{\"animationDelay\":\"0ms\"},\"children\":[\"$\",\"$L2\",null,{\"href\":\"/text\",\"className\":\"block no-underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] rounded-md\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"text-base sm:text-lg font-semibold leading-snug text-[var(--color-text)] group-hover:text-[var(--color-accent)] transition-colors duration-200 ease-out\",\"children\":\"「叙溯」诞生记：在书写中溯源\"}],[\"$\",\"time\",null,{\"className\":\"text-xs whitespace-nowrap opacity-35 font-mono tabular-nums\",\"dateTime\":\"$D2026-06-23T00:00:00.000Z\",\"children\":\"2026·06·23\"}]]}],[\"$\",\"p\",null,{\"className\":\"mt-1 text-sm leading-relaxed opacity-40 line-clamp-2 transition-opacity duration-200 group-hover:opacity-55\",\"children\":\"一个关于名字、主题与坚持的故事——从零搭建一个为书写而生的博客引擎。\"}],[\"$\",\"div\",null,{\"className\":\"flex flex-wrap gap-1.5 mt-2\",\"children\":[[\"$\",\"span\",\"叙溯\",{\"className\":\"text-[11px] px-2 py-0.5 rounded font-mono opacity-30 group-hover:opacity-45 transition-opacity duration-200\",\"style\":{\"background\":\"oklch(from var(--color-accent) l c h / 0.06)\",\"color\":\"var(--color-accent)\"},\"children\":\"叙溯\"}],[\"$\",\"span\",\"博客引擎\",{\"className\":\"text-[11px] px-2 py-0.5 rounded font-mono opacity-30 group-hover:opacity-45 transition-opacity duration-200\",\"style\":{\"background\":\"oklch(from var(--color-accent) l c h / 0.06)\",\"color\":\"var(--color-accent)\"},\"children\":\"博客引擎\"}],[\"$\",\"span\",\"开源\",{\"className\":\"text-[11px] px-2 py-0.5 rounded font-mono opacity-30 group-hover:opacity-45 transition-opacity duration-200\",\"style\":{\"background\":\"oklch(from var(--color-accent) l c h / 0.06)\",\"color\":\"var(--color-accent)\"},\"children\":\"开源\"}],[\"$\",\"span\",\"设计\",{\"className\":\"text-[11px] px-2 py-0.5 rounded font-mono opacity-30 group-hover:opacity-45 transition-opacity duration-200\",\"style\":{\"background\":\"oklch(from var(--color-accent) l c h / 0.06)\",\"color\":\"var(--color-accent)\"},\"children\":\"设计\"}]]}]]}]}],[\"$\",\"article\",\"about\",{\"className\":\"group relative -mx-3 px-3 py-4 rounded-lg transition-all duration-200 ease-out hover:bg-[oklch(from_var(--color-accent)_l_c_h_/_0.03)]\",\"style\":{\"animationDelay\":\"60ms\"},\"children\":[\"$\",\"$L2\",null,{\"href\":\"/about\",\"className\":\"block no-underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] rounded-md\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"text-base sm:text-lg font-semibold leading-snug text-[var(--color-text)] group-hover:text-[var(--color-accent)] transition-colors duration-200 ease-out\",\"children\":\"关于\"}],[\"$\",\"time\",null,{\"className\":\"text-xs whitespace-nowrap opacity-35 font-mono tabular-nums\",\"dateTime\":\"$D2026-06-22T00:00:00.000Z\",\"children\":\"2026·06·22\"}]]}],\"$undefined\",\"$undefined\"]}]}]]}]}],\"$L16\"]}]}]\n"])</script><script>self.__next_f.push([1,"10:[\"$\",\"$L17\",null,{\"children\":[\"$L18\",[\"$\",\"$L19\",null,{\"promise\":\"$@1a\"}]]}]\n"])</script><script>self.__next_f.push([1,"16:null\n"])</script><script>self.__next_f.push([1,"12:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n"])</script><script>self.__next_f.push([1,"18:null\n"])</script><script>self.__next_f.push([1,"1a:{\"metadata\":[[\"$\",\"title\",\"0\",{\"children\":\"Xusu\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"叙溯 —— 一边讲述，一边溯源。基于 Next.js 的双模博客系统。\"}],[\"$\",\"meta\",\"2\",{\"property\":\"og:title\",\"content\":\"Xusu\"}],[\"$\",\"meta\",\"3\",{\"property\":\"og:description\",\"content\":\"叙溯 —— 一边讲述，一边溯源。基于 Next.js 的双模博客系统。\"}],[\"$\",\"meta\",\"4\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"5\",{\"name\":\"twitter:card\",\"content\":\"summary\"}],[\"$\",\"meta\",\"6\",{\"name\":\"twitter:title\",\"content\":\"Xusu\"}],[\"$\",\"meta\",\"7\",{\"name\":\"twitter:description\",\"content\":\"叙溯 —— 一边讲述，一边溯源。基于 Next.js 的双模博客系统。\"}]],\"error\":null,\"digest\":\"$undefined\"}\n15:\"$1a:metadata\"\n"])</script></body></html>
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>叙溯 Xusu — 为书写而生的双模博客引擎</title>
+<meta name="description" content="不止是一个博客框架。双主题自由切换，Markdown 零配置写作，纯静态导出，五分钟上线。写给认真对待文字的人。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* ============================================
+   Design Tokens — 叙溯 Xusu Landing Page
+   ============================================ */
+:root {
+  /* — Primitive Tokens — */
+  --hue-accent: 22;
+  --hue-neutral: 60;
+
+  /* Light mode */
+  --bg-root:       oklch(97.5% 0.006 var(--hue-neutral));
+  --bg-surface:    oklch(99% 0.003 var(--hue-neutral));
+  --bg-elevated:   oklch(100% 0 0);
+  --bg-code:       oklch(16% 0.008 260);
+
+  --text-primary:  oklch(18% 0.008 265);
+  --text-secondary:oklch(42% 0.008 265);
+  --text-tertiary: oklch(58% 0.006 265);
+  --text-inverse:  oklch(94% 0.003 90);
+
+  --accent:        oklch(52% 0.17 var(--hue-accent));
+  --accent-soft:   oklch(52% 0.17 var(--hue-accent) / 0.08);
+  --accent-glow:   oklch(52% 0.17 var(--hue-accent) / 0.15);
+  --accent-dim:    oklch(38% 0.12 var(--hue-accent));
+
+  --border:        oklch(88% 0.005 var(--hue-neutral));
+  --border-strong: oklch(78% 0.008 var(--hue-neutral));
+  --shadow-sm:     0 1px 2px oklch(0% 0 0 / 0.04);
+  --shadow-md:     0 4px 12px oklch(0% 0 0 / 0.06);
+  --shadow-lg:     0 12px 40px oklch(0% 0 0 / 0.08);
+
+  /* — Semantic Tokens — */
+  --font-display:  'Noto Serif SC', 'Source Han Serif SC', 'SimSun', 'STSong', serif;
+  --font-body:     -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  --font-mono:     'JetBrains Mono', 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+
+  --space-xs:  clamp(0.25rem, 0.5vw, 0.5rem);
+  --space-sm:  clamp(0.5rem, 1vw, 0.75rem);
+  --space-md:  clamp(1rem, 2vw, 1.5rem);
+  --space-lg:  clamp(2rem, 4vw, 3rem);
+  --space-xl:  clamp(3rem, 6vw, 5rem);
+  --space-2xl: clamp(5rem, 10vw, 8rem);
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+
+  --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+
+  /* Font weight adjustments for dark mode readability */
+  --body-weight: 400;
+  --heading-weight: 700;
+}
+
+/* — Dark Mode — */
+html[data-theme="dark"] {
+  --bg-root:       oklch(13% 0.008 260);
+  --bg-surface:    oklch(16% 0.008 260);
+  --bg-elevated:   oklch(19% 0.008 260);
+  --bg-code:       oklch(12% 0.006 260);
+
+  --text-primary:  oklch(90% 0.005 85);
+  --text-secondary:oklch(68% 0.008 85);
+  --text-tertiary: oklch(52% 0.006 85);
+  --text-inverse:  oklch(16% 0.008 265);
+
+  --accent:        oklch(60% 0.16 var(--hue-accent));
+  --accent-soft:   oklch(60% 0.16 var(--hue-accent) / 0.1);
+  --accent-glow:   oklch(60% 0.16 var(--hue-accent) / 0.2);
+
+  --border:        oklch(25% 0.005 var(--hue-neutral));
+  --border-strong: oklch(35% 0.008 var(--hue-neutral));
+  --shadow-sm:     0 1px 2px oklch(0% 0 0 / 0.2);
+  --shadow-md:     0 4px 12px oklch(0% 0 0 / 0.3);
+  --shadow-lg:     0 12px 40px oklch(0% 0 0 / 0.4);
+
+  --body-weight: 350;
+  --heading-weight: 650;
+}
+
+/* ============================================ */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  font-family: var(--font-body);
+  font-size: clamp(16px, 1.2vw, 18px);
+  font-weight: var(--body-weight);
+  line-height: 1.7;
+  color: var(--text-primary);
+  background: var(--bg-root);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body { min-height: 100vh; }
+
+/* — Utility — */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+.section {
+  padding: var(--space-2xl) 0;
+}
+
+/* — Typography — */
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: var(--heading-weight);
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+h1 { font-size: clamp(2.5rem, 6vw, 4.5rem); }
+h2 { font-size: clamp(1.75rem, 3.5vw, 2.75rem); margin-bottom: var(--space-md); }
+h3 { font-size: clamp(1.25rem, 2vw, 1.5rem); }
+h4 { font-size: 1rem; font-family: var(--font-body); font-weight: 600; }
+
+.accent-dot {
+  color: var(--accent);
+  display: inline-block;
+}
+
+/* — Header — */
+.site-header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  padding: var(--space-sm) 0;
+  background: oklch(97.5% 0.006 var(--hue-neutral) / 0.72);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid var(--border);
+}
+html[data-theme="dark"] .site-header {
+  background: oklch(13% 0.008 260 / 0.72);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 900;
+  color: var(--text-primary);
+  text-decoration: none;
+  letter-spacing: -0.02em;
+}
+.logo span { color: var(--accent); }
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.theme-toggle {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--bg-surface);
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1rem;
+  transition: all 0.2s var(--ease-out-expo);
+  color: var(--text-secondary);
+}
+.theme-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0.5rem 1.25rem;
+  border-radius: var(--radius-md);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s var(--ease-out-expo);
+  border: none;
+  white-space: nowrap;
+}
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+}
+.btn-primary:hover {
+  background: oklch(45% 0.15 var(--hue-accent));
+  box-shadow: 0 4px 20px var(--accent-glow);
+  transform: translateY(-1px);
+}
+.btn-ghost {
+  background: transparent;
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+}
+.btn-ghost:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+/* — Hero — */
+.hero {
+  padding-top: calc(var(--space-2xl) + 4rem);
+  padding-bottom: var(--space-xl);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-glow {
+  position: absolute;
+  top: -20%;
+  right: -10%;
+  width: 60%;
+  height: 80%;
+  background: radial-gradient(ellipse at center, var(--accent-glow) 0%, transparent 70%);
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xl);
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-label {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 4px 12px;
+  border-radius: 999px;
+  margin-bottom: var(--space-md);
+}
+
+.hero-title {
+  margin-bottom: var(--space-md);
+  font-weight: 900;
+}
+.hero-title .highlight {
+  color: var(--accent);
+}
+
+.hero-desc {
+  font-size: clamp(1rem, 1.4vw, 1.2rem);
+  color: var(--text-secondary);
+  max-width: 42ch;
+  line-height: 1.8;
+  margin-bottom: var(--space-lg);
+}
+
+.hero-cta {
+  display: flex;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+/* Terminal */
+.terminal {
+  background: var(--bg-code);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg), 0 0 0 1px var(--border);
+}
+
+.terminal-bar {
+  display: flex;
+  gap: 8px;
+  padding: 12px 16px;
+  background: oklch(18% 0.006 260);
+  border-bottom: 1px solid oklch(25% 0.005 260);
+}
+.terminal-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  background: oklch(65% 0.02 0);
+}
+.terminal-dot:nth-child(2) { background: oklch(70% 0.04 95); }
+.terminal-dot:nth-child(3) { background: oklch(55% 0.12 150); }
+
+.terminal-body {
+  padding: 16px 20px;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  line-height: 1.8;
+  color: oklch(85% 0.01 95);
+  min-height: 220px;
+}
+
+.terminal-line {
+  display: flex;
+  gap: 8px;
+}
+
+.terminal-prompt {
+  color: oklch(55% 0.12 150);
+  flex-shrink: 0;
+}
+
+.terminal-cursor {
+  display: inline-block;
+  width: 0.55em;
+  height: 1.1em;
+  background: var(--accent);
+  vertical-align: text-bottom;
+  animation: blink 1s step-end infinite;
+}
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+.terminal-comment { color: oklch(55% 0.03 260); }
+.terminal-cmd { color: oklch(82% 0.05 200); }
+.terminal-success { color: oklch(65% 0.12 150); }
+
+/* — Section Labels — */
+.section-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--accent);
+  margin-bottom: var(--space-sm);
+}
+
+/* — Theme Comparison — */
+.comp-section {
+  background: var(--bg-surface);
+}
+
+.comp-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+  margin-top: var(--space-lg);
+}
+
+.theme-card {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  background: var(--bg-elevated);
+  transition: transform 0.3s var(--ease-out-expo), box-shadow 0.3s var(--ease-out-expo);
+}
+.theme-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.theme-preview {
+  aspect-ratio: 16/10;
+  overflow: hidden;
+  position: relative;
+}
+
+.theme-preview-zhumo {
+  background: linear-gradient(135deg, oklch(96% 0.005 80) 0%, oklch(99% 0.002 80) 50%, oklch(94% 0.01 80) 100%);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.zm-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+  border-bottom: 2px solid oklch(50% 0.17 22 / 0.3);
+}
+.zm-logo {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: oklch(20% 0.01 265);
+}
+.zm-nav {
+  display: flex;
+  gap: 12px;
+  font-size: 0.65rem;
+  color: oklch(50% 0.01 265);
+}
+
+.zm-card {
+  background: white;
+  padding: 14px 16px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.zm-card-tag {
+  background: var(--accent);
+  color: white;
+  font-size: 0.55rem;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.zm-card-title {
+  font-weight: 600;
+  font-size: 0.7rem;
+  color: oklch(18% 0.008 265);
+}
+.zm-card-date {
+  font-size: 0.58rem;
+  color: oklch(55% 0.005 265);
+}
+
+.theme-preview-suguang {
+  background: linear-gradient(135deg, oklch(25% 0.008 260) 0%, oklch(18% 0.01 260) 100%);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.sg-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.sg-avatar {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  background: oklch(70% 0.13 50);
+}
+.sg-info {
+  font-size: 0.65rem;
+  color: oklch(75% 0.005 80);
+}
+.sg-name {
+  font-weight: 600;
+  color: oklch(92% 0.005 80);
+  font-size: 0.7rem;
+}
+
+.sg-timeline {
+  position: relative;
+  padding-left: 16px;
+  border-left: 1px dashed oklch(60% 0.13 50 / 0.4);
+}
+.sg-post {
+  margin-bottom: 14px;
+}
+.sg-post-date {
+  font-size: 0.55rem;
+  color: oklch(65% 0.1 50);
+  margin-bottom: 2px;
+}
+.sg-post-title {
+  font-size: 0.7rem;
+  color: oklch(88% 0.005 80);
+  font-weight: 500;
+}
+
+.theme-meta {
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.theme-name {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.theme-name .zhumo { color: var(--accent); }
+.theme-name .suguang { color: oklch(65% 0.1 50); }
+
+.theme-badge {
+  font-size: 0.65rem;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+.badge-zhumo {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+.badge-suguang {
+  background: oklch(65% 0.1 50 / 0.12);
+  color: oklch(65% 0.1 50);
+}
+
+/* — Features — */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-md);
+  margin-top: var(--space-lg);
+}
+
+.feature-item {
+  padding: var(--space-lg) var(--space-md);
+  border-radius: var(--radius-lg);
+  background: var(--bg-surface);
+  transition: background 0.25s var(--ease-out-expo), box-shadow 0.25s var(--ease-out-expo);
+  border: 1px solid var(--border);
+}
+.feature-item:hover {
+  background: var(--bg-elevated);
+  box-shadow: var(--shadow-md);
+  border-color: var(--border-strong);
+}
+
+.feature-icon {
+  width: 44px; height: 44px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  margin-bottom: var(--space-sm);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.feature-title {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+  letter-spacing: -0.01em;
+}
+
+.feature-desc {
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+  line-height: 1.7;
+}
+
+/* — Quick Start — */
+.quickstart-section {
+  background: var(--bg-code);
+}
+
+.quickstart-section .section-label,
+.quickstart-section h2,
+.quickstart-section h3,
+.quickstart-section p,
+.quickstart-section .feature-desc {
+  color: oklch(90% 0.005 80);
+}
+
+.quickstart-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xl);
+  align-items: center;
+  margin-top: var(--space-lg);
+}
+
+.code-block-wrapper {
+  position: relative;
+}
+
+.code-block {
+  background: oklch(13% 0.006 265);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid oklch(25% 0.005 260);
+}
+
+.code-header {
+  padding: 10px 16px;
+  background: oklch(16% 0.006 265);
+  border-bottom: 1px solid oklch(25% 0.005 260);
+  font-size: 0.65rem;
+  color: oklch(50% 0.02 260);
+  font-family: var(--font-mono);
+  display: flex;
+  gap: 10px;
+}
+.code-header span:first-child { color: oklch(55% 0.12 150); }
+.code-header span:nth-child(2) { color: oklch(70% 0.04 95); }
+
+.code-content {
+  padding: 16px 20px;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  line-height: 1.9;
+  color: oklch(85% 0.01 95);
+  overflow-x: auto;
+}
+.code-keyword { color: oklch(72% 0.1 320); }
+.code-string { color: oklch(65% 0.12 150); }
+.code-func { color: oklch(82% 0.08 200); }
+.code-comment { color: oklch(55% 0.03 260); font-style: italic; }
+
+.steps-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.step-item {
+  display: flex;
+  gap: var(--space-md);
+  align-items: flex-start;
+}
+
+.step-num {
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.step-text h4 {
+  color: oklch(92% 0.005 80);
+  margin-bottom: 2px;
+}
+
+.quickstart-section .step-text p {
+  color: oklch(60% 0.008 80);
+  font-size: 0.85rem;
+}
+
+/* — Tech Stack — */
+.tech-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-top: var(--space-lg);
+}
+
+.tech-badge {
+  padding: 8px 20px;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  transition: all 0.2s var(--ease-out-expo);
+}
+.tech-badge:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* — CTA Section — */
+.cta-section {
+  text-align: center;
+  padding: var(--space-2xl) 0;
+}
+
+.cta-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  font-weight: 900;
+  margin-bottom: var(--space-sm);
+  letter-spacing: -0.02em;
+}
+
+.cta-desc {
+  color: var(--text-secondary);
+  margin-bottom: var(--space-lg);
+  max-width: 50ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* — Footer — */
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: var(--space-xl) 0 var(--space-lg);
+  background: var(--bg-surface);
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+
+.footer-brand {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+.footer-brand span { color: var(--accent); }
+
+.footer-links {
+  display: flex;
+  gap: var(--space-lg);
+  font-size: 0.8rem;
+  color: var(--text-tertiary);
+}
+.footer-links a {
+  color: var(--text-tertiary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-links a:hover { color: var(--accent); }
+
+.footer-copy {
+  color: var(--text-tertiary);
+  font-size: 0.78rem;
+}
+
+/* — Responsive — */
+@media (max-width: 900px) {
+  .hero-grid,
+  .comp-grid,
+  .quickstart-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-glow {
+    right: -30%;
+    width: 100%;
+    opacity: 0.4;
+  }
+
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-title {
+    font-size: clamp(2rem, 8vw, 3rem);
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* — Reduced Motion — */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="/" class="logo">叙溯<span>.</span></a>
+    <div class="header-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
+        <span class="theme-icon">&#9789;</span>
+      </button>
+      <a href="#quickstart" class="btn btn-primary">快速开始</a>
+      <a href="https://github.com/MSOCEO/xusu" class="btn btn-ghost">GitHub</a>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-glow"></div>
+  <div class="container hero-grid">
+    <div>
+      <div class="hero-label">双模博客引擎 · 开源</div>
+      <h1 class="hero-title">
+        不止是博客框架<br>
+        为<span class="highlight">书写</span>而生
+      </h1>
+      <p class="hero-desc">
+        一套代码，两种身份。Markdown 零配置写作，双主题自由切换，纯静态一键部署。写给认真对待文字的人。
+      </p>
+      <div class="hero-cta">
+        <a href="#quickstart" class="btn btn-primary">立即开始</a>
+        <a href="https://github.com/MSOCEO/xusu" class="btn btn-ghost" style="font-size:0.85rem">查看源码 &#8599;</a>
+      </div>
+    </div>
+    <div>
+      <div class="terminal">
+        <div class="terminal-bar">
+          <div class="terminal-dot"></div>
+          <div class="terminal-dot"></div>
+          <div class="terminal-dot"></div>
+        </div>
+        <div class="terminal-body" id="typewriter">
+          <div class="terminal-line">
+            <span class="terminal-prompt">$</span>
+            <span class="terminal-cmd" id="typed-text"></span><span class="terminal-cursor" id="cursor"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Theme Comparison -->
+<section class="section comp-section">
+  <div class="container">
+    <div class="section-label">双主题引擎</div>
+    <h2>同一份内容，<span class="accent-dot">两种</span>阅读体验</h2>
+    <p style="color:var(--text-tertiary);max-width:55ch;">构建时选定默认主题，运行时通过 URL 参数即刻切换——无需重新构建，无需服务器。</p>
+
+    <div class="comp-grid">
+      <!-- 朱墨 -->
+      <div class="theme-card">
+        <div class="theme-preview theme-preview-zhumo">
+          <div class="zm-header">
+            <span class="zm-logo">叙溯</span>
+            <div class="zm-nav">
+              <span>文章</span><span>归档</span><span>关于</span>
+            </div>
+          </div>
+          <div class="zm-card">
+            <span class="zm-card-tag">设计</span>
+            <div>
+              <div class="zm-card-title">中文排版的艺术：从竖排到屏幕</div>
+              <div class="zm-card-date">2026-06-19</div>
+            </div>
+          </div>
+          <div class="zm-card">
+            <span class="zm-card-tag">技术</span>
+            <div>
+              <div class="zm-card-title">为什么选择纯静态博客</div>
+              <div class="zm-card-date">2026-06-15</div>
+            </div>
+          </div>
+        </div>
+        <div class="theme-meta">
+          <div class="theme-name">
+            <span class="zhumo">朱墨</span>
+            <span style="font-size:0.7rem;color:var(--text-tertiary);font-weight:400;">现代中式书卷气</span>
+          </div>
+          <span class="theme-badge badge-zhumo">?theme=bookish</span>
+        </div>
+      </div>
+
+      <!-- 溯光 -->
+      <div class="theme-card">
+        <div class="theme-preview theme-preview-suguang">
+          <div class="sg-header">
+            <div class="sg-avatar"></div>
+            <div>
+              <div class="sg-name">叙溯</div>
+              <span>一边讲述，一边溯源</span>
+            </div>
+          </div>
+          <div class="sg-timeline">
+            <div class="sg-post">
+              <div class="sg-post-date">2026 · 06 · 19</div>
+              <div class="sg-post-title">中文排版的艺术：从竖排到屏幕</div>
+            </div>
+            <div class="sg-post">
+              <div class="sg-post-date">2026 · 06 · 15</div>
+              <div class="sg-post-title">为什么选择纯静态博客</div>
+            </div>
+          </div>
+        </div>
+        <div class="theme-meta">
+          <div class="theme-name">
+            <span class="suguang">溯光</span>
+            <span style="font-size:0.7rem;color:var(--text-tertiary);font-weight:400;">禅意社论风</span>
+          </div>
+          <span class="theme-badge badge-suguang" style="background:oklch(65% 0.1 50 / 0.12);color:oklch(65% 0.1 50);">?theme=zen-editorial</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features -->
+<section class="section">
+  <div class="container">
+    <div class="section-label">引擎特性</div>
+    <h2>精于心，<span class="accent-dot">简</span>于形</h2>
+    <p style="color:var(--text-tertiary);max-width:55ch;">不堆砌功能。每一个特性都经过推敲，只保留真正提升写作与阅读体验的能力。</p>
+
+    <div class="features-grid">
+      <div class="feature-item">
+        <div class="feature-icon">&#9997;</div>
+        <div class="feature-title">Markdown 原生</div>
+        <div class="feature-desc">在 content/ 下直接用 .md 文件写作。gray-matter 解析元信息，remark 渲染。文件即文章，无需数据库。</div>
+      </div>
+
+      <div class="feature-item">
+        <div class="feature-icon">&#9889;</div>
+        <div class="feature-title">双模架构</div>
+        <div class="feature-desc">静态模式导出纯 HTML，扔到任何服务器上直接跑。动态模式接入数据库后支持在线编辑。同一套代码按需切换。</div>
+      </div>
+
+      <div class="feature-item">
+        <div class="feature-icon">&#127769;</div>
+        <div class="feature-title">暗色模式</div>
+        <div class="feature-desc">跟随系统或手动切换。朱墨与溯光各自拥有独立的暗色调配方案，夜间阅读柔和不刺眼。</div>
+      </div>
+
+      <div class="feature-item">
+        <div class="feature-icon">&#128228;</div>
+        <div class="feature-title">评论系统</div>
+        <div class="feature-desc">内置自托管评论，localStorage 存储免后端。支持地域标识、设备识别、GIF 动图。也可一键接入 Waline。</div>
+      </div>
+
+      <div class="feature-item">
+        <div class="feature-icon">&#128295;</div>
+        <div class="feature-title">插件机制</div>
+        <div class="feature-desc">通过 _plugins.json 在 head / bodyStart / bodyEnd 注入自定义代码。不侵入核心，扩展无限。</div>
+      </div>
+
+      <div class="feature-item">
+        <div class="feature-icon">&#128640;</div>
+        <div class="feature-title">&lt;5s 构建速度</div>
+        <div class="feature-desc">Next.js 静态导出，构建产物是一堆 HTML + JS + CSS 文件。零运行时依赖，极致轻量。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Quick Start -->
+<section class="section quickstart-section" id="quickstart">
+  <div class="container">
+    <div class="section-label">五分钟上线</div>
+    <h2>从零到线上，<span class="accent-dot">四步</span>就够了</h2>
+
+    <div class="quickstart-grid">
+      <div class="code-block-wrapper">
+        <div class="code-block">
+          <div class="code-header">
+            <span>●</span><span>●</span><span>●</span>
+            <span style="margin-left:8px;">终端</span>
+          </div>
+          <div class="code-content">
+<span class="code-comment"># 1. 克隆仓库</span>
+<span class="code-keyword">git clone</span> <span class="code-string">https://github.com/MSOCEO/xusu.git</span> my-blog
+<span class="code-keyword">cd</span> my-blog
+
+<span class="code-comment"># 2. 安装依赖</span>
+<span class="code-keyword">npm install</span>
+
+<span class="code-comment"># 3. 构建静态站点</span>
+<span class="code-keyword">npm run</span> build
+
+<span class="code-comment"># 4. 推送到 GitHub Pages</span>
+<span class="code-keyword">git push</span> origin master
+<span class="code-comment"># 站点即刻上线</span>
+          </div>
+        </div>
+      </div>
+      <div class="steps-list">
+        <div class="step-item">
+          <div class="step-num">1</div>
+          <div class="step-text">
+            <h4>克隆 & 安装</h4>
+            <p>Fork 仓库，clone 到本地，一条 npm install 完事。</p>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">2</div>
+          <div class="step-text">
+            <h4>写文章</h4>
+            <p>在 content/ 目录下创建 .md 文件。支持 frontmatter 元信息。</p>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">3</div>
+          <div class="step-text">
+            <h4>构建 & 推送</h4>
+            <p>npm run build 生成纯静态文件，push 到 GitHub Pages。</p>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">4</div>
+          <div class="step-text">
+            <h4>开始写作</h4>
+            <p>专注内容。主题、暗色模式、评论——引擎帮你搞定。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tech Stack -->
+<section class="section">
+  <div class="container">
+    <div class="section-label">技术栈</div>
+    <h2>现代、轻量、<span class="accent-dot">零运维</span></h2>
+    <div class="tech-grid">
+      <span class="tech-badge">Next.js 15</span>
+      <span class="tech-badge">TypeScript</span>
+      <span class="tech-badge">Tailwind CSS 4</span>
+      <span class="tech-badge">remark</span>
+      <span class="tech-badge">gray-matter</span>
+      <span class="tech-badge">React 19</span>
+      <span class="tech-badge">Static Export</span>
+      <span class="tech-badge">GitHub Pages</span>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-title">准备好开始写作了吗？</div>
+    <p class="cta-desc">Markdown 零配置，双主题自由切换，五分钟上线。专注内容，剩下的交给叙溯。</p>
+    <div style="display:flex;gap:var(--space-sm);justify-content:center;flex-wrap:wrap;">
+      <a href="https://github.com/MSOCEO/xusu" class="btn btn-primary" style="font-size:1rem;padding:0.7rem 2rem;">克隆仓库开始</a>
+      <a href="https://msoceo.github.io/blog" class="btn btn-ghost" style="font-size:1rem;padding:0.7rem 2rem;">在线 Demo &#8599;</a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">叙溯<span>.</span></div>
+    <div class="footer-links">
+      <a href="https://github.com/MSOCEO/xusu">GitHub</a>
+      <a href="https://msoceo.github.io/blog">在线 Demo</a>
+      <a href="https://github.com/MSOCEO/xusu/blob/master/README.md">文档</a>
+    </div>
+    <div class="footer-copy">&copy; 2026 MSOCEO. 开源 MIT 协议。</div>
+  </div>
+</footer>
+
+<script>
+// — Theme Toggle —
+(function() {
+  const html = document.documentElement;
+  const stored = localStorage.getItem('theme');
+  if (stored === 'dark' || (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    html.setAttribute('data-theme', 'dark');
+    document.querySelector('.theme-icon').innerHTML = '&#9728;';
+  }
+
+  document.getElementById('themeToggle').addEventListener('click', function() {
+    const isDark = html.getAttribute('data-theme') === 'dark';
+    const next = isDark ? 'light' : 'dark';
+    html.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    this.querySelector('.theme-icon').innerHTML = next === 'dark' ? '&#9728;' : '&#9789;';
+  });
+})();
+
+// — Terminal Typewriter —
+(function() {
+  const lines = [
+    'git clone https://github.com/MSOCEO/xusu.git',
+    'npm install',
+    'npm run build',
+    'git push origin master',
+    '',
+    '# 🚀 站点已上线！开始写作吧。'
+  ];
+
+  const typedEl = document.getElementById('typed-text');
+  const cursorEl = document.getElementById('cursor');
+  const typewriter = document.getElementById('typewriter');
+
+  let lineIndex = 0;
+  let charIndex = 0;
+  let currentLine = lines[0];
+
+  function typeNext() {
+    if (lineIndex >= lines.length) {
+      // All done, keep cursor blinking
+      return;
+    }
+    currentLine = lines[lineIndex];
+    if (charIndex === 0 && lineIndex > 0) {
+      // Add new line
+      const newLine = document.createElement('div');
+      newLine.className = 'terminal-line';
+      typewriter.appendChild(newLine);
+
+      // Move cursor
+      if (cursorEl.parentElement) {
+        cursorEl.parentElement.removeChild(cursorEl);
+      }
+      newLine.appendChild(cursorEl);
+
+      // Create typed text span for this line
+      const newTyped = document.createElement('span');
+      newTyped.className = 'terminal-cmd';
+      newTyped.id = 'typed-text-' + lineIndex;
+      newLine.insertBefore(newTyped, cursorEl);
+      typedEl.id = ''; // remove old id
+
+      // Add prompt
+      const prompt = document.createElement('span');
+      prompt.className = 'terminal-prompt';
+      prompt.textContent = '$';
+      newLine.insertBefore(prompt, newTyped);
+
+      // For last line, no prompt
+      if (lineIndex === lines.length - 1) {
+        prompt.textContent = '';
+      }
+    }
+
+    if (charIndex < currentLine.length) {
+      const targetId = lineIndex === 0 ? 'typed-text' : 'typed-text-' + lineIndex;
+      const target = document.getElementById(targetId);
+      if (target) {
+        target.textContent = currentLine.substring(0, charIndex + 1);
+      }
+      charIndex++;
+      setTimeout(typeNext, 40 + Math.random() * 40);
+    } else {
+      charIndex = 0;
+      lineIndex++;
+      setTimeout(typeNext, 300);
+    }
+  }
+
+  setTimeout(typeNext, 600);
+})();
+
+// — Scroll-reveal (subtle) —
+(function() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.feature-item, .theme-card, .tech-badge').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(20px)';
+    el.style.transition = 'opacity 0.6s cubic-bezier(0.19,1,0.22,1), transform 0.6s cubic-bezier(0.19,1,0.22,1)';
+    observer.observe(el);
+  });
+})();
+</script>
+
+</body>
+</html>
