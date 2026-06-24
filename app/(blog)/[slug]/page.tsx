@@ -1,7 +1,11 @@
 // ── 修改后的文章详情页：接入自写评论 ──
+import Link from 'next/link';
 import { getAllSlugs, getPostBySlug } from "@/lib/posts";
+import Link from 'next/link';
 import { markdownToHtml } from "@/lib/markdown";
+import Link from 'next/link';
 import { format } from "date-fns";
+import Link from 'next/link';
 import { notFound } from "next/navigation";
 import TableOfContents from "@/components/table-of-contents";
 import CommentSection from "@/components/comment-section";
@@ -65,9 +69,9 @@ export default async function PostPage({ params }: Props) {
       <CommentSection slug={slug} />
 
       <footer className="mt-16 pt-8 border-t border-zinc-200 dark:border-zinc-800">
-        <a href="/" className="text-sm text-blue-600 dark:text-blue-400 hover:underline">
+        <Link href="/" className="text-sm text-blue-600 dark:text-blue-400 hover:underline">
           ← 返回首页
-        </a>
+        </Link>
       </footer>
     </article>
   );
